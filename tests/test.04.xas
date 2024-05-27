@@ -1,0 +1,9 @@
+  std
+  loadi 42, r0
+  loadi 13, r1
+  push  r0
+  push  r1
+  pop   r2 
+  pop   r3
+
+.literal 0

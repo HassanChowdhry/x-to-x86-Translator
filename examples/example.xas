@@ -1,0 +1,13 @@
+  loadi 2, r0
+  loadi 3, r1
+  loadi 4, r2
+  loadi 5, r3
+  loadi 7, r5 
+  std         # turn debugging on
+  add r2, r3
+  mul r2, r1
+  cld         # turn debugging off
+  neg r0
+  inc r5
+
+.literal 0

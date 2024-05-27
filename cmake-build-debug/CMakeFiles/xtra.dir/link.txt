@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/xtra.dir/main.c.o CMakeFiles/xtra.dir/xtra.c.o -o xtra 

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.zGcHp2Vhhk/xtra.c
+xtra.h
+/tmp/tmp.zGcHp2Vhhk/xtra.h
+string.h
+-
+
+/tmp/tmp.zGcHp2Vhhk/xtra.h
+stdio.h
+-
+errno.h
+-
+

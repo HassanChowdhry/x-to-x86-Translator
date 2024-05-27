@@ -1,0 +1,14 @@
+  loadi 1, r0
+  jmp j1
+j2:
+  loadi 3, r0
+  jmp j3
+j1:
+  loadi 2, r0
+  jmp j2
+j3:
+  std
+  loadi 4, r0
+ 
+.literal 0
+

@@ -1,0 +1,12 @@
+00: loadi
+01: arithmetic
+02: bitwise
+03: relational
+04: push/pop
+-------------
+05: unconditional jumps
+06: conditional jumps
+07: calls
+08: loads/stores
+09: loads/stores of bytes
+10: Output

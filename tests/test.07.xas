@@ -1,0 +1,13 @@
+  std
+  jmp start
+foo:
+  loadi 2, r0
+  ret
+start:
+  loadi 1, r0
+  call foo
+  loadi 3, r0
+
+.literal 0
+
+

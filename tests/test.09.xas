@@ -1,0 +1,30 @@
+  jmp start
+display:
+  push r0
+  push r1
+  loadi 0, r0
+  loadi 0, r1
+  std
+  cld
+  pop r1
+  pop r0
+  ret
+start:
+  loadi 0x1234, r0
+  push r0
+  mov r15, r0
+  loadi 1, r1
+  add r0, r1
+
+  loadb r0, r2
+  loadb r1, r3
+  call display
+
+  storb r2, r1
+  storb r3, r0
+  loadb r0, r2
+  loadb r1, r3
+  call display
+  pop r0
+.literal 0
+

@@ -1,0 +1,10 @@
+  std
+  loadi 1, r0
+  loadi -1, r1
+  loadi 0, r2
+  loadi 10, r3
+  loadi -10, r4
+  loadi 256, r5
+  mov   r0, r1
+
+.literal 0
